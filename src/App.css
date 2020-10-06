@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+table {
+  margin: 1em 0;
+}
+th,
+td {
+  padding: 0.5em 3em;
+}
+header {
+  font-size: 2rem;
+  font-weight: 500;
+}
+button {
+  padding: 0.5em 1em;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  border: 0;
+}
+button:focus {
+  outline: none;
+}
+input,
+textarea,
+select {
+  margin: 1em;
+  width: 20%;
+  padding: 0.5em 1em;
+}
+textarea {
+  margin: 0 0 0 1em;
+}
+img {
+  width: 100%;
+  min-height: auto;
+}

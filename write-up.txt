@@ -1,0 +1,10 @@
+I built this project using only functional components with React hooks because it allowed me to write cleaner 
+code with fewer lines. I decided to implement the context api because I noticed I was passing the same props 
+down continuously to many components at different levels of nesting. It reduces complexity and allow me to easily
+access my campaigns data(from the given json file) which I needed in many of my components and share data across 
+my application. I also decided to create 2 components - 1 responsible for editing a campaign and the other for 
+creating a new campaign. In both of these components I used the campaignForm component to decide which form to 
+display based on whether or not the campaign prop was passed down to this component. I also used React Router to 
+create different paths for different components and by using this library, I improved the application speed, reduced
+server calls, and created a seamless experience for ths user. I lastly used Jest and Enzyme to write unit tests
+for my components, mainly the CampaignForm component because that is the component with the most logic/complexity.
